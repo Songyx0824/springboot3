@@ -1,0 +1,10 @@
+logging:
+  file:
+    name: ./logs/log.log
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+  level:
+    root: info
+  logback:
+    rollingpolicy:
+      file-name-pattern:
